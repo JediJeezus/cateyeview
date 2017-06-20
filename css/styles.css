@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+.light-robot{
+  font-family: "Roboto",cursive;
+  font-weight: 300;
+}
+.roboto{
+  font-family: 'Roboto', cursive;
+  font-weight: 400;
+}
+.robot{
+  font-family: 'Roboto', cursive;
+  font-weight: 700;
+}
+
+body {
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+
+/*HERO SECTION*/
+.hero{
+  background-image: url("../img/cat.jpg");
+  text-align: center;
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  margin-top: -3%;
+  background-attachment: fixed;
+  height: inherit;
+}
+
+.info{
+  margin-left: 56%;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 43%
+}
+
+.light{
+  font-size: 2.5vw;
+  line-height: .75;
+  padding-right: 85%;
+  padding-top: 5%;
+}
+
+.kitty{
+  font-size: 2.5vw;
+  line-height: 0.25;
+  margin-right: 32%;
+}
+
+.robot{
+  font-size: 2.5vw;
+  line-height: 0.25;
+  text-decoration: none;
+}
+
+.logo{
+  height: 25%;
+  margin-left: -29%;
+}
+
+iframe{
+  margin-left: 6%;
+}
