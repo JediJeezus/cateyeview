@@ -24,11 +24,10 @@ body {
   background-image: url("../img/cat.jpg");
   text-align: center;
   background-position: center;
-  height: 100vh;
   background-size: cover;
   margin-top: -3%;
   background-attachment: fixed;
-  height: inherit;
+  height: 100%;
 }
 
 .info{
@@ -58,9 +57,47 @@ body {
 
 .logo{
   height: 25%;
-  margin-left: -29%;
 }
 
-iframe{
-  margin-left: 6%;
+.picture{
+  height: 500px;
+  margin-left: 8%;
+}
+
+.image:hover{
+
+}
+
+/*GRID*/
+.main{
+  width:100%;
+  padding-left: 4%;
+}
+
+/*FOOTER*/
+
+hr {
+    border : 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #2A2C2B;
+}
+
+a:hover {
+  filter: invert(100%);
 }
